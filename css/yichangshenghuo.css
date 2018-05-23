@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* css Document */
+
+.search_logo{height: 120px;padding-top: 32px;padding-right: 50px;box-sizing: border-box;text-align: center;}
+.search_logo img{width: 134px;height: 42px;}
+.search_logo form{display: inline-block;position: relative;text-align: left; width: 508px;height: 36px;line-height: 36px;font-size:14px;padding-left: 10px;border:1px solid #6EB92B;border-radius: 20px;overflow: hidden;}
+.search_logo form span{color: #6EB92B;}
+.search_logo form .inp_txt{width: 370px;padding:0 1px;}
+.search_logo form .inp_wyz,.search_logo button{background-color: #6EB92B;cursor: pointer;}
+.search_logo form .inp_wyz{position: absolute;right: 0;top:0; width: 92px; height: 37px;text-align: center;color: #fff;}
+.search_logo button{width: 138px;height: 36px;font-size: 12px;color: #fff;border:0;}
+.search_logo form .inp_wyz:hover,.search_logo button:hover{background-color: #336600;}
+
+.ban_top{margin-bottom: 14px;}
+.ban_top p a{font-size: 14px;color: #666;margin:0 5px;}
+.ban_top p a:hover{color:#6EB92B ;}
+.ban ul{position: relative;margin-bottom: 24px;height: 138px;}
+.ban ul li{position: absolute;left: 0;top: 0;}
+.ban ul li,.ban_top ul li img{width: 1200px;height: 138px;opacity: 0;transition: 0.5s;}
+.ban ul .li_act{opacity: 1;}
+
+.nav{width: 100%;height: 38px;margin-bottom: 20px;border-bottom: 1px solid #616775;}
+nav span{position: relative;height: 32px;}
+nav span:nth-child(2n){margin: 0 78px;}
+nav span:nth-child(1){margin-left: 62px;}
+nav span a{font-size: 16px;color: #616775;line-height: 32px;}
+nav span em{position: absolute;bottom: -13px;left: 22px;display:none;width: 10px;height: 6px;background: url('../images/ycsh_nav_jt.png') center center no-repeat;}
+nav span .em_l{left: 10px;}
+nav span .a_act,nav span a:hover{color: #5BB00D;}
+nav span .em_jt{display: inline-block;}
+
+.subMenu ul li{width: 138px;}
+.subMenu ul li:nth-child(2n){margin: 0 127.5px;}
+.subMenu ul li a{display: inline-block; height: 12px; font-size: 12px;color: #333333;margin-bottom: 19px;}
+.subMenu ul li a:nth-child(2),.subMenu ul li a:nth-child(5){margin:0 25px;}
+.subMenu ul li a:hover{color:#5BB00D;}
+
+.advert img{width: 100%; height: 107px;margin-bottom: 36px;}
+
+.con h2{height: 22px;line-height: 22px;font-size: 22px;border-left: 2px solid #5BB00D;margin-bottom: 14px; padding-left: 17px;color:#5BB00D;}
+
+.con_xzjyc ul{margin-bottom: 29px;}
+.con_xzjyc ul li a{display: inline-block;}
+.con_xzjyc ul li a,.con_xzjyc ul li a img{transition: 0.5s; width: 254px;height: 216px;}
+.con_xzjyc ul li:nth-child(1),.con_xzjyc ul  li:nth-child(1) a,.con_xzjyc ul  li:nth-child(1) img{width: 389px;height: 443px;}
+.con_xzjyc ul li:nth-child(1){margin-right: 17px;}
+.con_xzjyc ul li:nth-child(3n){margin: 0 16px;}
+.con_xzjyc ul .li_mb10{margin-bottom: 10px;}
+.con_xzjyc ul li a:hover{transform: scale(1.2);}
+
+.con_rmjyxx_esxzwp{margin-bottom: 28px;}
+.con_rmjyxx h2{margin-bottom: 8px;}
+.con_rmjyxx ul li a,.concon_esxzwp ul li a{color: #666666;font-size: 16px;}
+
+.con_rmjyxx{width: 758px;}
+.con_rmjyxx ul li{height: 36px;line-height: 36px;}
+.con_rmjyxx ul li a span:nth-child(3){margin-right: 85px;}
+.con_rmjyxx ul li a:hover,.concon_esxzwp ul li a{color: #5BB00D;}
+
+.concon_esxzwp{width: 320px;}
+.concon_esxzwp h2{margin-bottom: 20px;}
+.concon_esxzwp ol{margin-bottom: 3px;}
+.concon_esxzwp ol li,.concon_esxzwp ul li img{width: 155px;height: 89px;margin-bottom: 10px;}
+.concon_esxzwp ol li:nth-child(2n){margin-left: 9px;}
+.concon_esxzwp ul li{height: 27px;line-height: 27px;}
+
+.con_qtrmxx{margin-bottom: 63px;}
+.con_qtrmxx h2{margin-bottom: 8px;}
+.con_qtrmxx ul{margin-bottom: 19px;}
+.con_qtrmxx ul li:nth-child(1){width: 364px;}
+.con_qtrmxx ul li:nth-child(2){width: 360px;margin-right: 65px;margin-left: 64px;}
+.con_qtrmxx ul li:nth-child(3){width: 347px;}
+.con_qtrmxx a{display: block; height: 38px;line-height: 38px;color: #666;font-size: 16px;}
+.con_qtrmxx p{font-size: 14px;color: #999;line-height: 25px;}
+
+.footer{width: 100%; height: 300px;padding-top: 40px;border-top: 1px solid #E5E5E5;text-align: center;background-color: #FAFAFA;}
+
+.footer .yqlj{text-align: left;margin-bottom: 56px;}
+.footer .yqlj h5{font-size: 16px;color: #666;margin-bottom: 18px;}
+.footer .yqlj a,.footer .yqlj span{color: #999;font-size: 12px;line-height: 24px;}
+.footer .yqlj span{margin: 0 10px;}
+
+.footer .yqlj a:hover,.footer ul li a:hover{color: #6EB92B;}
+
+
+
+
+
+
+
+
+
+
